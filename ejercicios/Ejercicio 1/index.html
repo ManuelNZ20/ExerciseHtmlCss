@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 02 - Formularios HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Formulario navideño</h1>
+    <div class="container">
+      <main class="form">
+        <form action="/" method="POST">
+          <label for="nombre">Nombre </label>
+          <input
+            id="nombre"
+            name="nombre"
+            type="text"
+            placeholder="Ingrese su nombre"
+            required
+          />
+          <label for="edad">Edad</label>
+          <input
+            id="edad"
+            name="edad"
+            placeholder="Edad"
+            type="number"
+            min="13"
+            max="65"
+            step="1"
+            required
+          />
+          <label for="frase-favorita">Frase-favorita</label>
+          <textarea
+            id="frase-favorita"
+            placeholder="Ingrese su frase favorita"
+            cols="30"
+            rows="5"
+          ></textarea>
+          <p>Que tipo de desarrollador deseas ser para navidad?</p>
+          <div class="radio-button">
+            <input id="movil" name="deseo-radios" type="radio" checked>
+            <label for="movil" id="label-radio">Movil
+            </label>
+            <input id="web" name="deseo-radios" type="radio">
+            <label for="web" id="label-radio">Web
+            </label>
+            <input id="back-end" name="deseo-radios" type="radio">
+            <label for="back-end" id="label-radio">Back-end
+            </label>
+            <input id="front-end" name="deseo-radios" type="radio">
+            <label for="front-end" id="label-radio">Front-end
+            </label>
+            <br>
+            <input id="fullstack" name="deseo-radios" type="radio">
+            <label for="fullstack" id="label-radio">FullStack
+            </label>
+          </div>
+          <br />
+          <div class="bottom-button">
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </main>
+      <hr />
+      <footer>
+        <p class="present">NavarroZ - No Copyright</p>
+      </footer>
+    </div>
+  </body>
+</html>

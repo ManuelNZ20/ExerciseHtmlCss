@@ -1,0 +1,106 @@
+:root {
+  --color-us: rbga(rgba(39, 116, 116, 0.9));
+}
+
+body {
+  /*background:linear-gradient(rgba(225, 228, 229, 0.9),rgba(45,20,200,0.5),rgba(14,21,63,0.6));
+    background-repeat: no-repeat;*/
+  background-image: url(https://fondosmil.com/fondo/2024.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  width: 600px;
+  text-align: center;
+  background: rgba(240, 248, 255,0.9);
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+}
+.container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: rgba(39, 116, 116, 0.9);
+  color: aliceblue;
+  text-align: left;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+  height: 450px;
+  border-radius: 20px;
+}
+input {
+  border-radius: 3px;
+  border-style: none;
+  height: 30px;
+  width: 100%;
+}
+.radio-button {
+  display: flex;
+  padding-left: -25px;
+  width: 100%;
+}
+input[type="radio"] {
+  height: 15px;
+  width: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#label-radio {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+textarea {
+  border-style: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+hr {
+  border-color: red;
+  background-color: red;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.present {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 3px;
+  border-style: none;
+  color: var(--color-us);
+  background-color: rgba(255, 100, 116, 0.9);
+  width: 150px;
+  height: 30px;
+}
+
+.bottom-button {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(249, 87, 103);
+}
+hr {
+  margin-top: 20px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <!--Agrupa una serie de elementos que lo que le permite ingresar datos al usuario-->
+    <form action="resultados.html" method="GET">
+      <!--POST: envia información a un url especificada en el atributo action.
+        Label nos permite poner una etiqueta a la entrada de datos-->
+      <div>
+        <label for="nombre-usuario">Nombre de usuario </label>
+        <input id="nombre-usuario" name="nombre-usuario" type="text" required/>
+      </div>
+      <br>
+      <div>
+          <label for="password"> Contraseña </label>
+          <input id="password" name="password" type="password" required/>
+        </div>
+        <br>
+        <div>
+            <label for="edad">Cual es tu edad?</label>
+            <input  id="edad" type="number" name="edad" min=0 max=200 step=5 required>
+        </div>
+        <br>
+        <div>
+            <label for="nacimiento">Cual es tu fecha de nacimiento?</label>
+            <input id="nacimiento" type="date" name="nacimiento">
+        </div>
+        <br>
+        <div>
+          <label for="comentarios">Comentario</label>
+          <textarea
+            name="comentarios"
+            id="comentarios"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <!--Submit: enviar
+           Reset: resetear el formulario-->
+      <button type="reset">Reset</button>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
