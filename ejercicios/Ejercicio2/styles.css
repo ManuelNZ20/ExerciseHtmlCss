@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(0.25turn, #56a55a, #565555);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+table {
+  margin: 10px;
+  background-color: #e8e9f7;
+  table-layout: fixed;
+  border-radius: 10px;
+}
+tr:nth-child(odd) {
+  background-color: #269e6a;
+}
+
+tr:nth-child(even) {
+  background-color: #f1eff1;
+}
+
+th {
+  letter-spacing: 1px;
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+th:nth-child(1) {
+  width: 30%;
+}
+
+th:nth-child(2) {
+  width: 20%;
+}
+
+th:nth-child(3) {
+  width: 15%;
+}
+
+th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+.table-book {
+  background-color: rgb(8, 138, 120);
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
